@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #20182E;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .checkout-info {
+            text-align: center;
+        }
+        .qr-code {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .back-button {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .back-button a {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .back-button a:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Checkout</h1>
+        <div class="checkout-info">
+            <p>Please scan the PayPal QR code below to proceed with your payment.</p>
+            <p>Total Amount: $XXX.XX</p> <!-- Replace XXX.XX with the total amount -->
+        </div>
+        <div class="qr-code">
+            <!-- Replace the image source below with the generated PayPal QR code image -->
+            <img src="images/qrcode.png" alt="PayPal QR Code" width="200px">
+        </div>
+        <div class="link-item">
+            <a href="shop.html">Back to Shop</a>
+        </div>
+    </div>
+</body>
+</html>
